@@ -14,9 +14,7 @@ public class Punto1 {
     m = input.nextInt();
 
     for(int i = 1 ; i <= n; i++){
-      int x = n * i;
       for(int k = 1; k <= m; k++) {
-        int y = n * k;
         int w = i * k;
         System.out.println(i + "x" + k + "=" + w);
       }
