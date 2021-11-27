@@ -3,21 +3,22 @@ import java.util.Scanner;
 public class Punto1 {
   public static void main(String[] args) {
 
-    Scanner entrada = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
     int n;
     int m;
     System.out.print("Ingrese el primer numero:");
-    n = entrada.nextInt();
+    n = input.nextInt();
 
     System.out.print("Ingrese el segundo numero:");
-    m = entrada.nextInt();
+    m = input.nextInt();
 
     for(int i = 1 ; i <= n; i++){
-      int k = n * i;
-      System.out.println(n + "x" + i + "=" + k);
-      for(int j = 1; j <= n; j++) {
-
+      int x = n * i;
+      for(int k = 1; k <= m; k++) {
+        int y = n * k;
+        int w = i * k;
+        System.out.println(i + "x" + k + "=" + w);
       }
     }
   }
