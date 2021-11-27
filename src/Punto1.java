@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Multiplicador {
+public class Punto1 {
   public static void main(String[] args) {
 
     Scanner entrada = new Scanner(System.in);
@@ -16,9 +16,9 @@ public class Multiplicador {
     for(int i = 1 ; i <= n; i++){
       int k = n * i;
       System.out.println(n + "x" + i + "=" + k);
-    }
-    for(int j = 1; j <= n; j++) {
+      for(int j = 1; j <= n; j++) {
 
+      }
     }
   }
 }
