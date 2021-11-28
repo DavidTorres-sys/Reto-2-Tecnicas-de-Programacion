@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Punto1 {
+public class PuntoUno {
   public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
