@@ -55,11 +55,11 @@ public class PuntoCuatro {
                     if(withdraw - (w8 * values[7]) >= 0) {
                       withdraw = withdraw - (w8 * values[7]);
                       w9 = (withdraw / 100);
-                      System.out.println(w8 + " Billetes de 500");
+                      System.out.println(w8 + " Moneda de 500");
 
                       if(withdraw - (w9 * values[8]) >= 0) {
                         withdraw = withdraw - (w9 * values[8]);
-                        System.out.println(w9 + " Billetes de 100");
+                        System.out.println(w9 + " Moneda de 100");
 
                       }
                     }
