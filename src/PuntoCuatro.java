@@ -12,7 +12,6 @@ public class PuntoCuatro {
     System.out.print("Ingrese el valor a retirar:");
     withdraw = input.nextInt();
 
-    int wd = withdraw;
     w1 = withdraw / 100000;
 
     if(withdraw - (w1 * values[0]) >= 0) {
