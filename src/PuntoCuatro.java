@@ -20,46 +20,46 @@ public class PuntoCuatro {
       if(withdraw - (w1 * values[0]) >= 0) {
         withdraw = withdraw - (w1 * values[0]);
         w2 = withdraw / 50000;
-        System.out.println(w1 + " Billetes de 100mil");
+        System.out.println(w1 + " Billete(s) de 100mil");
 
         if(withdraw - (w2 * values[1]) >= 0) {
           withdraw = withdraw - (w2 * values[1]);
           w3 = (withdraw / 20000);
-          System.out.println(w2 + " Billetes de 50mil");
+          System.out.println(w2 + " Billete(s) de 50mil");
 
           if(withdraw - (w3 * values[2]) >= 0) {
             withdraw = withdraw - (w3 * values[2]);
             w4 = (withdraw / 10000);
-            System.out.println(w3 + " Billetes de 20mil");
+            System.out.println(w3 + " Billete(s) de 20mil");
 
             if(withdraw - (w4 * values[3]) >= 0) {
               withdraw = withdraw - (w4 * values[3]);
               w5 = (withdraw / 5000);
-              System.out.println(w4 + " Billetes de 10mil");
+              System.out.println(w4 + " Billete(s) de 10mil");
 
               if(withdraw - (w5 * values[4]) >= 0) {
                 withdraw = withdraw - (w5 * values[4]);
                 w6 = (withdraw / 2000);
-                System.out.println(w5 + " Billetes de 5mil");
+                System.out.println(w5 + " Billete(s) de 5mil");
 
                 if(withdraw - (w6 * values[5]) >= 0) {
                   withdraw = withdraw - (w6 * values[5]);
                   w7 = (withdraw / 1000);
-                  System.out.println(w6 + " Billetes de 2mil");
+                  System.out.println(w6 + " Billete(s) de 2mil");
 
                   if(withdraw - (w7 * values[6]) >= 0) {
                     withdraw = withdraw - (w7 * values[6]);
                     w8 = (withdraw / 500);
-                    System.out.println(w7 + " Billetes de mil");
+                    System.out.println(w7 + " Billete(s) de mil");
 
                     if(withdraw - (w8 * values[7]) >= 0) {
                       withdraw = withdraw - (w8 * values[7]);
                       w9 = (withdraw / 100);
-                      System.out.println(w8 + " Moneda de 500");
+                      System.out.println(w8 + " Moneda(s) de 500");
 
                       if(withdraw - (w9 * values[8]) >= 0) {
                         withdraw = withdraw - (w9 * values[8]);
-                        System.out.println(w9 + " Moneda de 100");
+                        System.out.println(w9 + " Moneda(s) de 100");
 
                       }
                     }
