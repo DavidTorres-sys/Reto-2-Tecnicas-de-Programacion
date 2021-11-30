@@ -39,16 +39,16 @@ public class Reto2 {
 
       case 2:
         int num;
-        System.out.println("Número que desea elevar al cuadrado");
+        System.out.print("Número que desea elevar al cuadrado:");
         num = Entrada.nextInt();
 
         int impar = 1;
         int acum = 0;
         int i;
-        for (i=1;i<=num;i++){
+        for (i=1; i <= num; i++){
           acum = acum + impar;
-          System.out.println("Impar"+i+" es: "+impar);
-          impar = impar+2;
+          System.out.println("Impar" + i + " es: " + impar);
+          impar = impar + 2;
 
         }
         System.out.println("El cuadrado de "+num+" es: "+acum);
@@ -57,29 +57,27 @@ public class Reto2 {
       //------------------------PUNTO 3----------------------//
       case 3:
         int numero;
-        System.out.println("Número que desea elevar al cubo");
+        System.out.print("Número que desea elevar al cubo:");
         numero = Entrada.nextInt();
 
         int impar1;
-        impar1 = (numero*(numero-1))+1;
+        impar1 = (numero * (numero - 1)) + 1;
         int acumulado = 0;
         int k;
-        for(k=1;k <=numero; k++  ){
+        for(k=1; k <= numero; k++  ){
           acumulado = acumulado + impar1;
           System.out.println("Impar"+k+" es: "+impar1);
-          impar1=impar1+2;
+          impar1 = impar1 + 2;
         }
-        System.out.println("el cubo de "+numero+" es: "+acumulado);
+        System.out.println("el cubo de "+ numero +" es: "+ acumulado);
         break;
 
       //------------------------PUNTO 4----------------------//
       case 4:
 
-
         System.out.println("Ingresar el valor que desea retirar");
         int withdraw;
         int [] values = {100000, 50000, 20000, 10000, 5000, 2000, 1000, 500, 100};
-
 
         withdraw = Entrada.nextInt();
 
@@ -136,6 +134,9 @@ public class Reto2 {
               }
             }
           }
+        }
+        else {
+          System.out.println("Ingrese un valor valido");
         }
         break;
 
