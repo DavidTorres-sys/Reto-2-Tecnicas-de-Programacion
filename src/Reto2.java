@@ -20,10 +20,10 @@ public class Reto2 {
       //------------------------PUNTO 1----------------------//
 
       case 1:
-        System.out.println("Ingresar primer número");
+        System.out.print("Ingresar primer número");
         int n;
         n = Entrada.nextInt();
-        System.out.println("Ingresar segundo número");
+        System.out.print("Ingresar segundo número");
         int m;
         m = Entrada.nextInt();
 
